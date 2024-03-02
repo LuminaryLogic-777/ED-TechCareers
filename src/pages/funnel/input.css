@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Catamaran", sans-serif;
+}
+.half-circle {
+  left: 50%;
+}

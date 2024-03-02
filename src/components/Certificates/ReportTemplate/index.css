@@ -1,0 +1,228 @@
+.button {
+  align-items: center;
+    background: #35c69d;
+    border-radius: 45px;
+    color: #fff;
+    display: flex;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 400;
+    height: 45px;
+    justify-content: center;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: left;
+    width: 180px;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+.centered {
+  position: absolute;
+  color: #c79118;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 23pt;
+}
+
+.c1 {
+  position: absolute;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 11pt;;
+}
+
+.c2 {
+  position: absolute;
+  top: 80%;
+  left: 19%;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 11pt;;
+}
+
+.c3 {
+  position: absolute;
+
+  color: black;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 11pt;;
+}
+
+.c4 {
+  position: absolute;
+
+  color: black;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 11pt;;
+}
+
+.c5 {
+  position: absolute;
+  color: #c79118;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 11pt;
+}
+
+button {
+  font-size: 1.25rem;
+  background-color: var(--blue);
+  border-radius: 6px;
+  border: 0;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.download {
+  background-color: var(--dark-blue);
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 6px;
+  border: 0;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  text-align: right;
+  text-decoration: none;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .centered {
+    top: 257px;
+    left: 392.52px;
+  }
+  .c1 {
+    top: 236px;
+    left: 393px;
+  }
+  .c2 {
+    top: 320px;
+    left: 264px;
+  }
+  .c3 {
+    top: 342px;
+    left: 364px;
+  }
+  .c4 {
+    top: 146px;
+    left: 340.04px;
+  }
+
+  .c5 {
+    top: 470px;
+    left: 352px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .centered {
+    top: 257px;
+    left: 392.52px;
+  }
+  .c1 {
+    top: 236px;
+    left: 393px;
+  }
+  .c2 {
+    top: 320px;
+    left: 264px;
+  }
+  .c3 {
+    top: 342px;
+    left: 364px;
+  }
+  .c4 {
+    top: 146px;
+    left: 340.04px;
+  }
+
+  .c5 {
+    top: 470px;
+    left: 352px;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .centered {
+    top: 257px;
+    left: 392.52px;
+  }
+  .c1 {
+    top: 236px;
+    left: 393px;
+  }
+  .c2 {
+    top: 320px;
+    left: 264px;
+  }
+  .c3 {
+    top: 342px;
+    left: 364px;
+  }
+  .c4 {
+    top: 146px;
+    left: 340.04px;
+  }
+
+  .c5 {
+    top: 470px;
+    left: 352px;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .centered {
+    top: 257px;
+    left: 392.52px;
+  }
+  .c1 {
+    top: 236px;
+    left: 393px;
+  }
+  .c2 {
+    top: 320px;
+    left: 264px;
+  }
+  .c3 {
+    top: 342px;
+    left: 364px;
+  }
+  .c4 {
+    top: 146px;
+    left: 340.04px;
+  }
+
+  .c5 {
+    top: 470px;
+    left: 352px;
+  }
+}
